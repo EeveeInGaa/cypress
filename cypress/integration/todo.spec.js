@@ -2,7 +2,7 @@ describe("todo App", () => {
   it("should allow to enter text", () => {
     cy.visit("/");
     cy.get("[data-cy='input']")
-      .type("llearn cypress")
+      .type("learn cypress")
       .should("have.value", "learn cypress");
   });
 
