@@ -4,10 +4,6 @@ const list = document.querySelector("#list");
 
 addButton.addEventListener("click", addTodo);
 
-for (let i = 0; i < 12; i++) {
-  console.log(i);
-}
-
 function addTodo() {
   const newTodo = input.value;
   const newLi = document.createElement("li");

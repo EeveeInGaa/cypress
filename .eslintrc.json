@@ -9,7 +9,6 @@
   },
   "rules": {
     "semi": 0,
-    "quotes": 0,
-    "no-loops/no-loops": 2
+    "quotes": 0
   }
 }
